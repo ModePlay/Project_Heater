@@ -1,0 +1,44 @@
+body {
+    background-image: url("pose.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    color: black;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing:10px 5px;
+    border-radius: 10px;
+    border: 5px solid black;
+    padding: 10px;
+}
+
+table caption h1 {
+    background-color: rgba( 230, 0, 238, 0.55); 
+    color: black;
+    padding: 20px;
+}
+
+table tr {
+    background-color: rgba( 0, 255, 255, 0.75); 
+    border-radius: 10px;
+    border: hidden;
+    padding: 10px;
+}
+
+table th {
+    border-radius: 10px;
+    border: hidden;
+    padding: 10px;
+}
+
+table td {
+    border-radius: 10px;
+    border: hidden;
+    padding: 10px;
+}
+
+caption {
+    caption-side: top;
+}
