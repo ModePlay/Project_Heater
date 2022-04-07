@@ -1,3 +1,12 @@
+//Test script
+function multiply(one, two) {
+  if(one && two){
+    this.form.elements.answer.value = one * two;
+  } else {
+    this.style.color='red';
+  }
+}
+
 //Hide Fieldset Content on Load
 $("fieldset legend").click(function() {
   if ($(this).parent().children().length == 2)

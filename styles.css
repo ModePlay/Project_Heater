@@ -73,6 +73,13 @@ input {
   flex-direction: column;
 }
 
+.answerBox {
+  color: white;
+  font-weight: bolder;
+  font-size: large;
+  background-color: black;
+}
+
 .legstyle {
   width: 100%;
   padding: 25px;
@@ -153,19 +160,21 @@ input {
     height: 100% !important;
   }
   .modal-content {
-    height: 100% !important;
+    height: 75% !important;
     max-width: 75% !important;
   }
 
   .modal-body {
-    height: 91% !important;
+    height: 88% !important;
   }
 
   .modal-footer {
     font-size: xx-large;
   }
 
-  
+  div {
+    max-width: 110%;
+  }
 
   .details {
     max-width: 50px !important;
@@ -179,6 +188,10 @@ input {
     min-width: none;
     font-size: xx-small;
     
+  } 
+
+  .form-size {
+    max-width: 50px;
   }
 
   h1 {
@@ -254,7 +267,7 @@ input {
 }
 
 .form-size {
-  width: 40px;
+  width: 60px;
 }
 
 .squat-image {

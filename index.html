@@ -189,42 +189,43 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
+
         <div id="modal1" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -247,42 +248,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal2" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -308,42 +309,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal3" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -369,42 +370,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal4" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -429,42 +430,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal5" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -492,39 +493,39 @@
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
              <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
+                <input class="form-size" type="text" id="lbs" name="mFirst">
+                <input class="form-size" type="text" id="reps" name="mSecond">
+             
         </div>
         <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
+             
+                <input class="form-size" type="text" id="lbs" name="mThird">
+                <input class="form-size" type="text" id="reps" name="mFourth">
+             
         </div>
         <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
+             
+                <input class="form-size" type="text" id="lbs" name="mFifth">
+                <input class="form-size" type="text" id="reps" name="mSixth">
+             
         </div>
         <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
+             
+                <input class="form-size" type="text" id="lbs" name="mSeventh">
+                <input class="form-size" type="text" id="reps" name="mEigth">
+             
         </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
+        <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+        
         <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
+                <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+                <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
              </form>
         </div>
         <div id="modal6" class="modal">
@@ -551,42 +552,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal7" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -615,42 +616,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal8" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -676,42 +677,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal9" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -738,42 +739,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal10" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -798,42 +799,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal11" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -858,42 +859,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal12" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -919,42 +920,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal13" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -980,42 +981,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal14" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -1040,42 +1041,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal15" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -1101,42 +1102,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal16" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -1161,42 +1162,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal17" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -1220,42 +1221,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal30" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -1280,42 +1281,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal32" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -1343,42 +1344,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal18" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -1404,42 +1405,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal19" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -1467,42 +1468,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal20" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -1535,42 +1536,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal21" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -1600,42 +1601,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal31" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -1658,42 +1659,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal22" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -1717,42 +1718,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal23" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -1776,42 +1777,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal24" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -1839,42 +1840,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal25" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -1905,42 +1906,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal26" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -1963,42 +1964,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal27" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -2025,42 +2026,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal28" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -2084,42 +2085,42 @@
         <div><h3>&nbsp; &nbsp;#1)&nbsp; &nbsp;</h3></div>
         <div>Lbs:<br>Reps:&nbsp;</div>
         <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs1()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps1()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs2()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps2()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs3()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps3()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
-        <div>Lbs:<br>Reps:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size" type="text" id="lbs" name="lbs" oninput="myLbs4()">
-                <input class="form-size" type="text" id="reps" name="reps" oninput="myReps4()">
-             </form>
-        </div>
-        <div><h3>&nbsp; &nbsp;Total Weight Moved =&nbsp; &nbsp;</h3></div>
-        <div>Lbs:&nbsp;</div>
-        <div>
-             <form>
-                <input class="form-size totalWeight()" type="text" id="lbs" name="lbs" >
-             </form>
-        </div>
+            <form>
+               <input class="form-size" type="text" id="lbs" name="mFirst">
+               <input class="form-size" type="text" id="reps" name="mSecond">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#2)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mThird">
+               <input class="form-size" type="text" id="reps" name="mFourth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#3)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mFifth">
+               <input class="form-size" type="text" id="reps" name="mSixth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;#4)&nbsp; &nbsp;</h3></div>
+       <div>Lbs:<br>Reps:&nbsp;</div>
+       <div>
+            
+               <input class="form-size" type="text" id="lbs" name="mSeventh">
+               <input class="form-size" type="text" id="reps" name="mEigth">
+            
+       </div>
+       <div><h3>&nbsp; &nbsp;=&nbsp; &nbsp;</h3></div>
+       
+       <div>
+               <input class="form-size totalWeight() answerBox" type="text" name="answer" >
+               <button class="form-size" type="button" name="submit" onclick="multiply.call(this,this.form.elements.mFirst.value,this.form.elements.mSecond.value,this.form.elements.mThird.value,this.form.elements.mFourth.value,this.form.elements.mFifth.value,this.form.elements.mSixth.value,this.form.elements.mSeventh.value,this.form.elements.mEigth.value)">Total Lbs</button>
+            </form>
+       </div>
         <div id="modal29" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
@@ -2143,14 +2144,21 @@
     </div>
 
  <script src="compressed.js" type="text/javascript"></script>
-
-<!-- Alert message to user on load
-  <script>
-    var myNum1 = 7;
-    var myNum2 = 10;
-    if (myNum1 < myNum2) {
-    alert("Hey Heather! Keep up the good work, okay? You're doing awesome");
-    } 
-  </script> --> 
-</body>
+ <script>
+     function multiply(one, two, three, four, five, six, seven, eight) {
+  if(one && two){
+    this.form.elements.answer.value = one * two;
+  }if(one && two && three && four) {
+    this.form.elements.answer.value = one * two + three * four;
+  }if(one && two && three && four && five && six) {
+    this.form.elements.answer.value = one * two + three * four + five * six;        
+  }if(one && two && three && four && five && six && seven && eight) {
+    this.form.elements.answer.value = one * two + three * four + five * six + seven * eight;
+    alert(`My Hero! \n You heaved a total of ${this.form.elements.answer.value} Lbs!`);
+  }else if (!one && !two) {
+      alert("First set values required");
+  }
+}
+ </script>
+</body> 
 </html>
